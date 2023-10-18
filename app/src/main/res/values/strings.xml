@@ -2,5 +2,6 @@
     <string name="app_name">Tip TIme</string>
     <string name="tip_time">Tip TIme</string>
     <string name="toolbar_title">Tip Time!</string>
+    <string name="cost_of_service">Cost of Service</string>
 
 </resources>
