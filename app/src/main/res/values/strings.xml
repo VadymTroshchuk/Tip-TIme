@@ -2,7 +2,7 @@
     <string name="app_name">Tip TIme</string>
     <string name="tip_time">Tip TIme</string>
     <string name="toolbar_title">Tip Time!</string>
-    <string name="tip_amount">Tip Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
     <string name="calculate">Calculate</string>
     <string name="round_up_tip">Round up tip?</string>
     <string name="okay_service">Okay (15%)</string>
