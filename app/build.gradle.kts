@@ -7,6 +7,10 @@ android {
     namespace = "com.example.tiptime"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.tiptime"
         minSdk = 24
