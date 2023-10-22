@@ -2,6 +2,8 @@ package com.example.tiptime
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.Window
 import android.widget.Toolbar
 import com.example.tiptime.databinding.ActivityMainBinding
 import java.text.NumberFormat
@@ -12,6 +14,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
+        supportActionBar?.hide()
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
