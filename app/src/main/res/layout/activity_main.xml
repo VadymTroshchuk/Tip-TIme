@@ -44,6 +44,7 @@
                 android:minHeight="?attr/actionBarSize"
                 android:theme="?attr/actionBarTheme"
                 app:title="Tip Time"
+                app:titleTextAppearance="@style/ToolbarTitleTextAppearance"
                 app:titleTextColor="@color/white"
            />
 
@@ -66,7 +67,8 @@
             app:layout_constraintBottom_toBottomOf="@id/cost_of_service"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/cost_of_service"
-            app:srcCompat="@drawable/ic_store" />
+            app:srcCompat="@drawable/ic_store"
+            app:tint="@color/pink"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/cost_of_service"
@@ -94,7 +96,8 @@
             app:layout_constraintBottom_toBottomOf="@id/service_question"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/service_question"
-            app:srcCompat="@drawable/ic_service" />
+            app:srcCompat="@drawable/ic_service"
+            app:tint="@color/pink" />
 
         <TextView
             android:id="@+id/service_question"
@@ -145,7 +148,8 @@
             app:layout_constraintBottom_toBottomOf="@id/round_up_switch"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/round_up_switch"
-            app:srcCompat="@drawable/ic_round_up" />
+            app:srcCompat="@drawable/ic_round_up"
+            app:tint="@color/pink"/>
 
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/round_up_switch"
